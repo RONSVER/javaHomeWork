@@ -60,4 +60,16 @@ public class Car {
     public int hashCode() {
         return Objects.hash(vinCode);
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "mark='" + mark + '\'' +
+                ", color='" + color + '\'' +
+                ", vinCode='" + vinCode + '\'' +
+                ", regNum='" + regNum + '\'' +
+                '}';
+    }
 }
+
+
